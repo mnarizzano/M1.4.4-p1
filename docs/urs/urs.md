@@ -37,10 +37,9 @@ YYYY
 ## 1. Introduction
 
 <a name="sp1.1"></a>
-Su richiesta dell'Università degli Studi di Genova, e al fine di  sostituire l'obsoleto 
+Su richiesta dell'Università degli Studi di Genova con lo scopo  di  sostituire il
 sistema cartaceo, il presente Software permetterà di effettuare le operazioni in base alla 
-tipologia di utente, tramite l'utilizzo di un PC o smartphone, completamente da remoto e 
-garantendo al tempo stesso accuratezza e sicurezza.
+tipologia di utente, tramite l'utilizzo di un PC o smartphone,garantendo al tempo stesso accuratezza e sicurezza.
 
 ### 1.1 Document Scope
 Lo scopo  di questo documento è quello di illustrare ogni aspetto del Software, presentare 
