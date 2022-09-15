@@ -1,15 +1,11 @@
+**VERSION : 1.0**
 
-### User Requirements Specification Document
-##### DIBRIS – Università di Genova. Scuola Politecnica, Software Engineering Course 80154
+**Autori**  
+Dana Luta
+Matteo Bonino
+Sara Urdangaray
 
-
-**VERSION : X.X**
-
-**Authors**  
-XXXX
-YYYY
-
-**REVISION HISTORY**
+**REVISIONE N.**
 
 | Version    | Date        | Authors      | Notes        |
 | ----------- | ----------- | ----------- | ----------- |
