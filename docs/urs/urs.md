@@ -1,15 +1,12 @@
-
-### User Requirements Specification Document
-##### DIBRIS – Università di Genova. Scuola Politecnica, Software Engineering Course 80154
-
-
-**VERSION : X.X**
+**VERSION : 1.0**
 
 **Autori**  
-XXXX
-YYYY
+Dana Luta
+Matteo Bonino
+Sara Urdangaray
 
-**Modifiche**
+**REVISIONE N.**
+
 
 | Version    | Date        | Authors      | Notes        |
 | ----------- | ----------- | ----------- | ----------- |
@@ -37,10 +34,9 @@ YYYY
 ## 1. Introduzione
 
 <a name="sp1.1"></a>
-Su richiesta dell'Università degli Studi di Genova, e al fine di  sostituire l'obsoleto 
+Su richiesta dell'Università degli Studi di Genova con lo scopo  di  sostituire il
 sistema cartaceo, il presente Software permetterà di effettuare le operazioni in base alla 
-tipologia di utente, tramite l'utilizzo di un PC o smartphone, completamente da remoto e 
-garantendo al tempo stesso accuratezza e sicurezza.
+tipologia di utente, tramite l'utilizzo di un PC o smartphone,garantendo al tempo stesso accuratezza e sicurezza.
 
 ### 1.1 Obbiettivi del Documento
 Lo scopo  di questo documento è quello di illustrare ogni aspetto del Software, presentare 
