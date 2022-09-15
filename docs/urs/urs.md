@@ -5,36 +5,36 @@
 
 **VERSION : X.X**
 
-**Authors**  
+**Autori**  
 XXXX
 YYYY
 
-**REVISION HISTORY**
+**Modifiche**
 
 | Version    | Date        | Authors      | Notes        |
 | ----------- | ----------- | ----------- | ----------- |
 | 0.5 | 15/09/22 | Matteo | Studente |
 | 0.5 | 15/09/22 | Sara | Corso, Esame, Voto |
 | 0.5 | 15/09/22 | Dana | Docente |
-# Table of Contents
+# Tabella dei contenuti
 
-1. [Introduction](#p1)
-	1. [Document Scope](#sp1.1)
-	2. [Definitios and Acronym](#sp1.2) 
-	3. [References](#sp1.3)
-2. [System Description](#p2)
-	1. [Context and Motivation](#sp2.1)
-	2. [Project Objectives](#sp2.2)
-3. [Requirement](#p3)
- 	1. [Stakeholders](#sp3.1)
- 	2. [Functional Requirements](#sp3.2)
- 	3. [Non-Functional Requirements](#sp3.3)
+1. [Introduzione](#p1)
+	1. [Obbiettivi del documento](#sp1.1)
+	2. [Definizioni e Acronimi](#sp1.2) 
+	3. [Riferimenti](#sp1.3)
+2. [Descrizione del Sistema](#p2)
+	1. [Contenuti e Motivazioni](#sp2.1)
+	2. [Obbiettivi del Progetto](#sp2.2)
+3. [Richieste](#p3)
+ 	1. [Soggetti](#sp3.1)
+ 	2. [Richieste Funzionali](#sp3.2)
+ 	3. [Richieste non Funzionali](#sp3.3)
   
   
 
 <a name="p1"></a>
 
-## 1. Introduction
+## 1. Introduzione
 
 <a name="sp1.1"></a>
 Su richiesta dell'Università degli Studi di Genova, e al fine di  sostituire l'obsoleto 
@@ -42,13 +42,13 @@ sistema cartaceo, il presente Software permetterà di effettuare le operazioni i
 tipologia di utente, tramite l'utilizzo di un PC o smartphone, completamente da remoto e 
 garantendo al tempo stesso accuratezza e sicurezza.
 
-### 1.1 Document Scope
+### 1.1 Obbiettivi del Documento
 Lo scopo  di questo documento è quello di illustrare ogni aspetto del Software, presentare 
 le sue features, nonché essere anche una guida introduttiva sul suo funzionamento.
 
 <a name="sp1.2"></a>
 
-### 1.2 Definitions and Acronym
+### 1.2 Definizione e Acronimi
 
 | Acronym				| Definition | 
 | ------------------------------------- | ----------- | 
@@ -58,18 +58,18 @@ le sue features, nonché essere anche una guida introduttiva sul suo funzionamen
 
 <a name="sp1.3"></a>
 
-### 1.3 References 
+### 1.3 Riferimenti 
 
 <a name="p2"></a>
 
-## 2. System Description
+## 2. Descrizione Del Sistema 
 <a name="sp2.15"></a>
 Il SW può essere essenzialmente definito come un Gestionale: esso permette a studenti e 
 docenti di visualizzare e agire sugli esami universitari - in maniera appropriata in base 
 al tipo di utente. Attraverso una GUI, l'utente potrà effettuare diverse operazioni 
 online senza la necessità di presentarsi personalmente all'Università.
 
-### 2.1 Context and Motivation
+### 2.1 Contenuti e Motivazioni
 Il contesto di utilizzo previsto è nell'ambito dell'istruzione: per come il SW è progettato
 può essere applicabile ad altre tipologie di istituti scolastici.
 Il SW ha lo scopo di ridurre le tempistiche e i costi dovuti all'attuale sistema in uso 
@@ -82,7 +82,7 @@ alla pandemia CoVid 19.
 
 <a name="sp2.2"></a>
 
-### 2.2 Project Obectives 
+### 2.2 Obbiettivi del Progetto 
 Realizzare un SW che sia in grado di funzionare sulla maggior parte delle piattaforme in 
 uso: PC Windows, PC MacOS, smartphone iOS e Android. 
 Realizzazione di un'ambiente di sistema che permetta di non avere ridondanza di dati e 
@@ -90,17 +90,17 @@ che abbia requisiti hardware minimi molto accessibili.
 
 <a name="p3"></a>
 
-## 3. Requirements
+## 3. Richieste
 
 | Priorità | Significato | 
 | --------------- | ----------- | 
-| M | **Mandatory:**   |
-| D | **Desiderable:** |
-| O | **Optional:**    |
-| E | **future Enhancement:** |
+| M | **Mandatorio:**   |
+| D | **Desiderabile:** |
+| O | **Opzionale:**    |
+| E | **Futura Espansione:** |
 
 <a name="sp3.1"></a>
-### 3.1 Stakeholders
+### 3.1 Soggetti
 Client: Università degli Studi di Genova, Città Metropolitana di Genova, Assessore 
 della Cultura
 Regulators: un team dedicato alla verifica del rispetto dei regolamenti universitari 
@@ -109,7 +109,7 @@ Users: studenti e docenti sono in primis coloro che agiranno sul SW; avranno alt
 accesso anche il personale universitario, amministrativo e direttivo
 
 <a name="sp3.2"></a>
-### 3.2 Functional Requirements 
+### 3.2 Richieste Funzionali
 
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
@@ -126,7 +126,7 @@ accesso anche il personale universitario, amministrativo e direttivo
 | 4.0 |  Il SW dovrebbe permettere di visualizzare lo stato delle operazioni |O|
 
 <a name="sp3.3"></a>
-### 3.2 Non-Functional Requirements 
+### 3.2 Richieste non funzionali 
  
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
