@@ -70,7 +70,7 @@ Sara Urdangaray
 
 <a name="p2"></a>
 
-## 1. Scenari
+## 2. Scenari
 
 <a name="sp2.1"></a>
 
