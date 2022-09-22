@@ -20,8 +20,8 @@ Sara Urdangaray
 	2. [attori](#sp1.2) 
 	3. [lista funzionalità](#sp1.3)
 2. [Scenari](#p2)
-    1. [](#p2.1)
-    2. [](#p2.2)
+    1. [lista dei corsi a cui l'utente è iscritto](#p2.1)
+    2. [lista dei corsi superati](#p2.2)
     3. [](#p2.3)
     4. [](#p2.4)
     5. [](#p2.5)
@@ -78,11 +78,11 @@ Sara Urdangaray
 
 <a name="sp2.2"></a>
 
-### 2.1
+### 2.2
 
 <a name="sp2.3"></a>
 
-### 2.1
+### 2.3
 <a name="sp2.4"></a>
 
 ### 2.4
