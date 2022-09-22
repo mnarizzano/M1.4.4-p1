@@ -76,29 +76,138 @@ Sara Urdangaray
 
 ### 2.1
 
+Caso d’uso			Visualizza Lista Corsi Iscritto
+Tipo				Primario
+Precondizioni			Essere registrato nel sistema
+Scenario Principale		1 Lo studente scrive matricola corretta
+				2 Lo studente scrive password corretta
+				3 Lo studente seleziona la propria pagina Profilo
+				4 Lo studente seleziona “Visualizza Lista Corsi Iscritto”
+				5 Sistema apre una schermata con la lista
+Scenario Alternativo		1 Lo studente inserisce una combinazione matricola/password errata
+				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
+Post condizioni			Sistema mostra schermata con lista
+
 <a name="sp2.2"></a>
 
 ### 2.2
 
+Caso d’uso			Visualizza Lista Corsi Superati
+Tipo				Primario
+Precondizioni			Essere registrato nel sistema, aver superato almeno un esame
+Scenario Principale		1 Lo studente scrive matricola corretta
+				2 Lo studente scrive password corretta
+				3 Lo studente seleziona la propria pagina Profilo
+				4 Lo studente seleziona “Visualizza Lista Voti”
+				5 Sistema apre una schermata con la lista
+Scenario Alternativo		1 Lo studente inserisce una combinazione matricola/password errata
+				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
+Scenario Alternativo		1 Lo studente non ha ancora ricevuto un voto d’esame
+				2 Sistema segnala l’impossibilità, ritorna al punto 3 dello scenario principale
+Post condizioni			Sistema mostra schermata con lista
+
 <a name="sp2.3"></a>
 
 ### 2.3
+
+Caso d’uso			Visualizza Lista dei Corsi accessibili
+Tipo				Primario
+Precondizioni			Essere registrato nel sistema, essere in regola coi pagamenti
+Scenario Principale		1 Lo studente scrive matricola corretta
+				2 Lo studente scrive password corretta
+				3 Lo studente seleziona la propria pagina Profilo
+				4 Lo studente seleziona “Visualizza Lista Corsi accessibili”
+				5 Sistema apre una schermata con la lista
+Scenario Alternativo		1 Lo studente inserisce una combinazione matricola/password errata
+				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
+Scenario Alternativo		1 Lo studente ha già superato tutti gli esami
+				2 Sistema segnala l’impossibilità, ritorna al punto 3 dello scenario principale
+Scenario Alternativo		1 Lo studente non è in regola con il pagamento delle tasse
+				2 Sistema segnala l’inadempienza, ritorna al punto 3 dello scenario principale
+Post condizioni			Sistema mostra schermata con lista 
+
 <a name="sp2.4"></a>
 
 ### 2.4
+
+Caso d’uso			Visualizza lista corsi in cui insegna
+Tipo				Primario
+Precondizioni			Essere registrato nel sistema, avere almeno un corso
+Scenario Principale		1 Docente scrive matricola corretta
+				2 Docente scrive password corretta
+				3 Docente seleziona la propria pagina Profilo
+				4 Docente seleziona “Visualizza Lista Corsi Docente”
+				5 Sistema apre una schermata con la lista
+Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
+Scenario Alternativo		1 Docente non ha nessuna docenza
+				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
+Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.5"></a>
 
 ### 2.5
 
+Caso d’uso			Indire un esame per corso in cui insegna
+Tipo				Primario
+Precondizioni			Essere registrato nel sistema, avere almeno un corso
+Scenario Principale		1 Docente scrive matricola corretta
+				2 Docente scrive password corretta
+				3 Docente seleziona la propria pagina Profilo
+				4 Docente seleziona “Inserisci Nuova data esame”
+				5 Sistema apre una schermata con la lista delle materie insegnate 
+				6 Docente seleziona un corso
+				7 Sistema apre un calendario con le possibili date selezionabili
+				8 Docente seleziona una data
+Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
+Scenario Alternativo		1 Docente non ha nessuna docenza
+				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
+Post condizioni			Sistema mostra schermata con lista 
+
 <a name="sp2.6"></a>
 
 ### 2.6
 
+Caso d’uso			Registrare un voto
+Tipo				Primario
+Precondizioni			Essere registrato nel sistema, avere almeno un corso
+Scenario Principale		1 Docente scrive matricola corretta
+				2 Docente scrive password corretta
+				3 Docente seleziona la propria pagina Profilo
+				4 Docente seleziona “Inserisci Voto esame”
+				5 Sistema apre una schermata con la lista delle materie insegnate 
+				6 Docente seleziona un corso
+				7 Sistema apre una schermata con la lista degli studenti iscritti
+				8 Docente seleziona uno studente
+				9 Sistema apre un menù a tendina con un elenco di voti da 1 a 30
+Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
+Scenario Alternativo		1 Docente non ha nessuna docenza
+				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
+Scenario Alternativo		1 Nessun studente ha ancora dato l’esame
+				2 Sistema segnala la mancanza, ritorna al punto 6 dello scenario principale
+Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.7"></a>
 
 ### 2.7
+
+Caso d’uso			Visualizza lista iscritti ad un esame
+Tipo				Primario
+Precondizioni			Essere registrato nel sistema, avere almeno un corso
+Scenario Principale		1 Docente scrive matricola corretta
+				2 Docente scrive password corretta
+				3 Docente seleziona la propria pagina Profilo
+				4 Docente seleziona “Visualizza Lista esame”
+				5 Sistema apre una schermata con la lista degli esami già fissati
+				6 Docente seleziona un esame/data
+				7 Sistema visualizza una schermata con gli studenti iscritti all’appello
+Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
+Scenario Alternativo		1 Docente non ha nessuna docenza
+				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
+Post condizioni			SW mostra schermata con lista 
 
 <a name="sp2.8"></a>
 
