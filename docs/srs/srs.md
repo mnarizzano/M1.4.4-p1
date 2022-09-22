@@ -51,6 +51,7 @@ Sara Urdangaray
 <a name="sp1.1"></a>
 
 ### 1.1 Diagramma
+![Gestionale_Scuola](https://user-images.githubusercontent.com/113334515/191721870-867f580e-7b92-4557-95eb-cc2fbff3964e.png)
 
 
 <a name="sp1.2"></a>
