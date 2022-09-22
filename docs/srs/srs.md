@@ -82,7 +82,9 @@ Tipo				Primario
 
 Precondizioni			Essere registrato nel sistema
 
-Scenario Principale		1 Lo studente scrive matricola corretta
+Scenario Principale		
+				
+				1 Lo studente scrive matricola corretta
 
 				2 Lo studente scrive password corretta
 
@@ -92,7 +94,9 @@ Scenario Principale		1 Lo studente scrive matricola corretta
 
 				5 Sistema apre una schermata con la lista
 
-Scenario Alternativo		1 Lo studente inserisce una combinazione matricola/password errata
+Scenario Alternativo		
+
+				1 Lo studente inserisce una combinazione matricola/password errata
 
 				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
 
@@ -108,7 +112,9 @@ Tipo				Primario
 
 Precondizioni			Essere registrato nel sistema, aver superato almeno un esame
 
-Scenario Principale		1 Lo studente scrive matricola corretta
+Scenario Principale		
+
+				1 Lo studente scrive matricola corretta
 
 				2 Lo studente scrive password corretta
 
@@ -118,11 +124,15 @@ Scenario Principale		1 Lo studente scrive matricola corretta
 
 				5 Sistema apre una schermata con la lista
 
-Scenario Alternativo		1 Lo studente inserisce una combinazione matricola/password errata
+Scenario Alternativo		
+
+				1 Lo studente inserisce una combinazione matricola/password errata
 
 				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
 
-Scenario Alternativo		1 Lo studente non ha ancora ricevuto un voto d’esame
+Scenario Alternativo		
+
+				1 Lo studente non ha ancora ricevuto un voto d’esame
 
 				2 Sistema segnala l’impossibilità, ritorna al punto 3 dello scenario principale
 
@@ -138,7 +148,9 @@ Tipo				Primario
 
 Precondizioni			Essere registrato nel sistema, essere in regola coi pagamenti
 
-Scenario Principale		1 Lo studente scrive matricola corretta
+Scenario Principale		
+
+				1 Lo studente scrive matricola corretta
 
 				2 Lo studente scrive password corretta
 
@@ -148,15 +160,21 @@ Scenario Principale		1 Lo studente scrive matricola corretta
 
 				5 Sistema apre una schermata con la lista
 
-Scenario Alternativo		1 Lo studente inserisce una combinazione matricola/password errata
+Scenario Alternativo		
+
+				1 Lo studente inserisce una combinazione matricola/password errata
 
 				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
 
-Scenario Alternativo		1 Lo studente ha già superato tutti gli esami
+Scenario Alternativo		
+
+				1 Lo studente ha già superato tutti gli esami
 
 				2 Sistema segnala l’impossibilità, ritorna al punto 3 dello scenario principale
 
-Scenario Alternativo		1 Lo studente non è in regola con il pagamento delle tasse
+Scenario Alternativo		
+
+				1 Lo studente non è in regola con il pagamento delle tasse
 
 				2 Sistema segnala l’inadempienza, ritorna al punto 3 dello scenario principale
 
@@ -172,7 +190,9 @@ Tipo				Primario
 
 Precondizioni			Essere registrato nel sistema, avere almeno un corso
 
-Scenario Principale		1 Docente scrive matricola corretta
+Scenario Principale		
+
+				1 Docente scrive matricola corretta
 
 				2 Docente scrive password corretta
 
@@ -182,11 +202,15 @@ Scenario Principale		1 Docente scrive matricola corretta
 
 				5 Sistema apre una schermata con la lista
 
-Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+Scenario Alternativo		
+
+				1 Docente inserisce una combinazione matricola/password errata
 
 				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
 
-Scenario Alternativo		1 Docente non ha nessuna docenza
+Scenario Alternativo		
+
+				1 Docente non ha nessuna docenza
 
 				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
 
@@ -202,7 +226,9 @@ Tipo				Primario
 
 Precondizioni			Essere registrato nel sistema, avere almeno un corso
 
-Scenario Principale		1 Docente scrive matricola corretta
+Scenario Principale		
+
+				1 Docente scrive matricola corretta
 
 				2 Docente scrive password corretta
 
@@ -218,11 +244,15 @@ Scenario Principale		1 Docente scrive matricola corretta
 
 				8 Docente seleziona una data
 
-Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+Scenario Alternativo		
+
+				1 Docente inserisce una combinazione matricola/password errata
 
 				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
 
-Scenario Alternativo		1 Docente non ha nessuna docenza
+Scenario Alternativo		
+
+				1 Docente non ha nessuna docenza
 
 				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
 
@@ -238,7 +268,9 @@ Tipo				Primario
 
 Precondizioni			Essere registrato nel sistema, avere almeno un corso
 
-Scenario Principale		1 Docente scrive matricola corretta
+Scenario Principale		
+
+				1 Docente scrive matricola corretta
 
 				2 Docente scrive password corretta
 
@@ -256,15 +288,21 @@ Scenario Principale		1 Docente scrive matricola corretta
 
 				9 Sistema apre un menù a tendina con un elenco di voti da 1 a 30
 
-Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+Scenario Alternativo		
+
+				1 Docente inserisce una combinazione matricola/password errata
 
 				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
 
-Scenario Alternativo		1 Docente non ha nessuna docenza
+Scenario Alternativo		
+
+				1 Docente non ha nessuna docenza
 
 				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
 
-Scenario Alternativo		1 Nessun studente ha ancora dato l’esame
+Scenario Alternativo		
+
+				1 Nessun studente ha ancora dato l’esame
 
 				2 Sistema segnala la mancanza, ritorna al punto 6 dello scenario principale
 
@@ -280,7 +318,9 @@ Tipo				Primario
 
 Precondizioni			Essere registrato nel sistema, avere almeno un corso
 
-Scenario Principale		1 Docente scrive matricola corretta
+Scenario Principale		
+
+				1 Docente scrive matricola corretta
 
 				2 Docente scrive password corretta
 
@@ -294,11 +334,15 @@ Scenario Principale		1 Docente scrive matricola corretta
 
 				7 Sistema visualizza una schermata con gli studenti iscritti all’appello
 
-Scenario Alternativo		1 Docente inserisce una combinazione matricola/password errata
+Scenario Alternativo		
+
+				1 Docente inserisce una combinazione matricola/password errata
 
 				2 Sistema segnala l’errore, ritorna al punto 1 dello scenario principale
 
-Scenario Alternativo		1 Docente non ha nessuna docenza
+Scenario Alternativo		
+
+				1 Docente non ha nessuna docenza
 
 				2 Sistema segnala la mancanza, ritorna al punto 3 dello scenario principale
 
@@ -307,33 +351,6 @@ Post condizioni			SW mostra schermata con lista
 <a name="sp2.8"></a>
 
 ### 2.8
-Caso d’uso: 	aggiungere nuovo corso
-
-Tipo: 			secondario
-
-Precondizioni: 		avere info corso
-
-Scenario principale: 
-
-			1- effettuare l’accesso alla piattaforma
-
-			2- tra le operazioni che può effettuare la segreteria scegliere aggiungere un nuovo corso
-
-			3- compilare i campi con le informazioni sul corso e selezionare quali corsi di studio 
-			possono accedere a questo corso       
-
-
-Scenario alternativo: 	nel caso di problemi di accesso alla piattaforma 
-
-			1- cliccare su recupero password
-
-			2- inviare un'email con un link per resettare la password
-
-			3- cliccare sul link e resettare la password
-
-			4- ritentare l’accesso con la nuova password
-
-Post condizioni: 
 
 <a name="sp2.9"></a>
 
