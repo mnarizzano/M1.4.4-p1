@@ -364,7 +364,8 @@ Scenario principale:
 		
 		2- tra le operazioni che può effettuare la segreteria scegliere aggiungere un nuovo corso
 		
-		3- compilare i campi con le informazioni sul corso e selezionare quali corsi di studio possono accedere a questo corso       
+		3- compilare i campi con le informazioni sul corso e selezionare quali corsi di studio 
+		possono accedere a questo corso       
 
 
 Scenario alternativo: nel caso di problemi di accesso alla piattaforma 
