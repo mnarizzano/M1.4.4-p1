@@ -1,4 +1,4 @@
-**VERSION : 1.0**
+**Versione : 1.0**
 
 **Autori**  
 Dana Luta
