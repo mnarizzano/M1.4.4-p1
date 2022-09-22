@@ -105,24 +105,31 @@ Users: studenti e docenti sono in primis coloro che agiranno sul SW; avranno alt
 accesso anche il personale universitario, amministrativo e direttivo
 
 <a name="sp3.2"></a>
-### 3.2 Richieste Funzionali
+### 3.2 Requisiti Funzionali
 
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
-| 1.0 |  Docente potrà visualizzare i corsi di cui è docente  |M|
-| 1.1 |  Docente potrà indire un esame per ogni corso |M|
-| 1.2 |  Docente potrà visualizzare la lista degli iscritti all'esame |M|
-| 1.3 |  Docente potrà registrare un voto per ogni studente iscritto |M|
+| 0.0 |  Ogni corso deve avere almeno 1 docente e può averne più di 1 |M|
+| 1.0 |  Docente potrà visualizzare i corsi di cui è insegnante  |M|
+| 1.1 |  Docente potrà indire esami, specificando una data, per ogni corso di cui è insegnante |M|
+| 1.2 |  Docente potrà visualizzare la lista degli iscritti ad un esame di cui è insegnante |M|
+| 1.3 |  Docente potrà registrare un voto per ogni studente iscritto all'esame di un corso di cui è insegnante |M|
+| 1.4 |  Docente potrà visualizzare i voti già assegnati agli studenti di un corso di cui è insegnante |M|
+| 1.5 |  Docente potrà cancellare appelli futuri di un corso di cui è insegnante |M|
+| 1.6 |  Docente potrà spostare un appello di un corso di cui è insegnante |M|
+| 1.7 |  Docente non potrà registrare un voto ad un corso di cui è insegnante se è già presente un voto |M|
 | 2.0 |  Studente potrà visualizzare la lista dei corsi a cui è iscritto |M|
-| 2.1 |	 Studente potrà visualizzare la lista dei corsi superati con il voto |M|
+| 2.1 |	 Studente potrà visualizzare la lista dei corsi superati, con il relativo voto |M|
 | 2.2 |  Studente potrà visualizzare la lista degli esami a cui iscriversi |M|
-| 2.3 |  Studente potrà iscriversi nuovamente ad un esame se non superato |M|
-| 3.0 |  Studente e Docente dovrebbero avere la possibilità di segnalare eventuali errori |D|
-| 3.1 |  Il SW dovrebbe permettere di estrarre dei files PDF delle liste |D|
-| 4.0 |  Il SW dovrebbe permettere di visualizzare lo stato delle operazioni |O|
+| 2.3 |  Studente non potrà iscriversi ad un esame superato |M|
+| 3.0 |  Segreteria potrà cambiare il voto ad uno studente |M|
+| 3.1 |  Segreteria può leggere le segnalazioni fatte da docenti e studenti |M|
+| 4.0 |  Studente e Docente possono segnalare eventuali errori |D|
+| 5.0 |  Il Sistema deve permettere di estrarre dei files PDF delle liste |D|
+| 5.1 |  Il Sistema deve permettere di visualizzare lo stato delle operazioni |O|
 
 <a name="sp3.3"></a>
-### 3.2 Richieste non funzionali 
+### 3.2 Requisiti non funzionali 
  
 | ID | Descrizione | Priorità |
 | --------------- | ----------- | ---------- | 
