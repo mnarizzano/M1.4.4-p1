@@ -307,6 +307,33 @@ Post condizioni			SW mostra schermata con lista
 <a name="sp2.8"></a>
 
 ### 2.8
+Caso d’uso: 	aggiungere nuovo corso
+
+Tipo: 			secondario
+
+Precondizioni: 		avere info corso
+
+Scenario principale: 
+
+			1- effettuare l’accesso alla piattaforma
+
+			2- tra le operazioni che può effettuare la segreteria scegliere aggiungere un nuovo corso
+
+			3- compilare i campi con le informazioni sul corso e selezionare quali corsi di studio 
+			possono accedere a questo corso       
+
+
+Scenario alternativo: 	nel caso di problemi di accesso alla piattaforma 
+
+			1- cliccare su recupero password
+
+			2- inviare un'email con un link per resettare la password
+
+			3- cliccare sul link e resettare la password
+
+			4- ritentare l’accesso con la nuova password
+
+Post condizioni: 
 
 <a name="sp2.9"></a>
 
