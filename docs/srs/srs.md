@@ -22,23 +22,22 @@ Sara Urdangaray
 2. [Scenari](#p2)
     1. [lista dei corsi a cui l'utente è iscritto](#p2.1)
     2. [lista dei corsi superati](#p2.2)
-    3. [](#p2.3)
-    4. [](#p2.4)
-    5. [](#p2.5)
-    6. [](#p2.6)
-    7. [](#p2.7)
-    8. [](#p2.8)
-    9. [](#p2.9)
-    10. [](#p2.10)
-    11. [](#p2.11)
-    12. [](#p2.12)
-    13. [](#p2.13)
-    14. [](#p2.14)
-    15. [](#p2.15)
-    16. [](#p2.16)
-    17. [](#p2.17)
-    18. [](#p2.18)
-    19. [](#p2.19)
+    3. [lista dei corsi a cui può iscriversi](#p2.3)
+    4. [lista dei corsi di cui il docente è insegnante](#p2.4)
+    5. [per ogni corso indire un esame](#p2.5)
+    6. [per ogni studente registrare un voto](#p2.6)
+    7. [visualizzare la lista degli studenti iscritti ad un esame](#p2.7)
+    8. [aggiungere un corso](#p2.8)
+    9. [inserire un nuovo percorso di studi che può accedere a un corso](#p2.9)
+    10. [elimina corso](#p2.10)
+    11. [aggiungere uno studente](#p2.11)
+    12. [aggiungere un docente](#p2.12)
+    13. [associa ad ogni corso un docente](#p2.13)
+    14. [elimina studente](#p2.14)
+    15. [elimina docente](#p2.15)
+    16. [visualizzazione delle segnalazioni](#p2.16)
+    17. [segnalazione degli errori](#p2.17)
+    18. [login](#p2.18)
     
     
 	
@@ -57,7 +56,7 @@ Sara Urdangaray
 <a name="sp1.2"></a>
 
 ### 1.2 Attori
-
+Gli attori sono: Utente, Docente, Segreteria
 
 <a name="sp1.3"></a>
 
@@ -418,6 +417,3 @@ Post condizioni:
 
 ### 2.18
 
-<a name="sp2.19"></a>
-
-### 2.19
