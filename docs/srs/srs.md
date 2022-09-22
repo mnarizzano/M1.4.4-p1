@@ -360,23 +360,23 @@ Precondizioni: avere info corso
 
 Scenario principale: 
 
-		1- effettuare l’accesso alla piattaforma
-		
-		2- tra le operazioni che può effettuare la segreteria scegliere aggiungere un nuovo corso
-		
-		3- compilare i campi con le informazioni sul corso e selezionare quali corsi di studio 
-		possono accedere a questo corso       
+				1- effettuare l’accesso alla piattaforma
+
+				2- tra le operazioni che può effettuare la segreteria scegliere aggiungere un nuovo corso
+
+				3- compilare i campi con le informazioni sul corso e selezionare quali corsi di studio 
+				possono accedere a questo corso       
 
 
 Scenario alternativo: nel caso di problemi di accesso alla piattaforma 
 
-		1- cliccare su recupero password
-		
-		2- inviare un'email con un link per resettare la password
-		
-		3- cliccare sul link e resettare la password
-		
-		4- ritentare l’accesso con la nuova password
+				1- cliccare su recupero password
+
+				2- inviare un'email con un link per resettare la password
+
+				3- cliccare sul link e resettare la password
+
+				4- ritentare l’accesso con la nuova password
 
 Post condizioni: 
 
@@ -399,23 +399,23 @@ Precondizioni: avere info docente, del corso
 
 Scenario principale: 
 
-		1- effettuare l’accesso alla piattaforma
-		
-		2- tra le operazioni che può effettuare la segreteria scegliere aggiungere corso al percorso di studio
-		
-		3- compilare i campi con il corso di studio, obiettivi e CFU
+				1- effettuare l’accesso alla piattaforma
+
+				2- tra le operazioni che può effettuare la segreteria scegliere aggiungere corso al percorso di studio
+
+				3- compilare i campi con il corso di studio, obiettivi e CFU
 
 
 
 Scenario alternativo: nel caso di problemi di accesso alla piattaforma 
 
-		1- cliccare su recupero password
-		
-		2- inviare un'email con un link per resettare la password
-		
-		3- cliccare sul link e resettare la password
-		
-		4- ritentare l’accesso con la nuova password
+				1- cliccare su recupero password
+
+				2- inviare un'email con un link per resettare la password
+
+				3- cliccare sul link e resettare la password
+
+				4- ritentare l’accesso con la nuova password
 
 
 
@@ -435,20 +435,20 @@ Precondizioni:	avere il codice corso e il nome del corso
 
 Scenario principale: 
 
-		1- effettuare l’accesso alla piattaforma
-		
-		2- tra le operazioni che può effettuare la segreteria scegliere rimuovere corso
-		
-		3- inserire il codice del corso ed effettuare la ricerca di tale corso
-		
-		4- se il codice del corso corrisponde al corso che si desidera eliminare cliccare sul corso e poi su elimina
+				1- effettuare l’accesso alla piattaforma
+
+				2- tra le operazioni che può effettuare la segreteria scegliere rimuovere corso
+
+				3- inserire il codice del corso ed effettuare la ricerca di tale corso
+
+				4- se il codice del corso corrisponde al corso che si desidera eliminare cliccare sul corso e poi su elimina
 
 
 Scenario alternativo: se il codice non corrisponde
 
-		1- cancellare dalla barra di ricerca il codice e provare ad inserire il nome del corso
-		
-		2- se il nome del corso corrisponde al corso che si desidera eliminare cliccare sul corso e poi su elimina
+				1- cancellare dalla barra di ricerca il codice e provare ad inserire il nome del corso
+
+				2- se il nome del corso corrisponde al corso che si desidera eliminare cliccare sul corso e poi su elimina
 
 Post condizioni: se il corso è in corso allora tenere una coda con i corsi attivi e fino alla scadenza dei corsi attivi mantenere il corso e poi eliminarlo
 
@@ -466,15 +466,15 @@ Precondizioni: avere info studente
 
 Scenario principale:
 
-		1- effettuare l’accesso alla piattaforma
-		
-		2- tra le operazioni che può effettuare la segreteria scegliere aggiungere studente
-		
-		3- compilare i campi con i dati dello studente compreso il percorso di studi da lui scelto
-		
-		4- cliccare su aggiungi studente
-		
-		5- inviare una mail di benvenuto allo studente comprese le credenziali per accedere alla piattaforma
+				1- effettuare l’accesso alla piattaforma
+
+				2- tra le operazioni che può effettuare la segreteria scegliere aggiungere studente
+
+				3- compilare i campi con i dati dello studente compreso il percorso di studi da lui scelto
+
+				4- cliccare su aggiungi studente
+
+				5- inviare una mail di benvenuto allo studente comprese le credenziali per accedere alla piattaforma
 
 Scenario alternativo:
 
@@ -513,11 +513,11 @@ Precondizioni: ricevere notifiche
 
 Scenario principale:
 
-		1- effettuare l’accesso alla piattaforma
-		
-		2- tra le operazioni che può effettuare la segreteria scegliere visualizza segnalazioni
-		
-		3- legge le segnalazioni inviate dai docenti e dagli studenti
+				1- effettuare l’accesso alla piattaforma
+
+				2- tra le operazioni che può effettuare la segreteria scegliere visualizza segnalazioni
+
+				3- legge le segnalazioni inviate dai docenti e dagli studenti
 
 Scenario alternativo:
 
