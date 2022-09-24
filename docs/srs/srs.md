@@ -5,14 +5,14 @@ Dana Luta
 Matteo Bonino
 Sara Urdangaray
 
-**REVISIONE N.**
+**REVISIONE N.2-24/09/2022 h15.30**
 
 
 | Version    | Date        | Authors      | Notes        |
 | ----------- | ----------- | ----------- | ----------- |
-| 0.5 | 15/09/22 | Matteo | Studente |
-| 0.5 | 15/09/22 | Sara | Corso, Esame, Voto |
-| 0.5 | 15/09/22 | Dana | Docente |
+| 1.0 | 15/09/22 | Matteo | Studente |
+| 1.0 | 15/09/22 | Sara | Corso, Esame, Voto |
+| 1.0 | 15/09/22 | Dana | Docente |
 # Tabella dei contenuti
 
 1. [Introduzione](#p1)
