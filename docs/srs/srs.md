@@ -51,7 +51,8 @@ Sara Urdangaray
 <a name="sp1.1"></a>
 
 ### 1.1 Diagramma
-![Gestionale_Scuola](https://user-images.githubusercontent.com/113334515/191721870-867f580e-7b92-4557-95eb-cc2fbff3964e.png)
+
+![Gestionale_Scuola](https://user-images.githubusercontent.com/113334515/192101524-c4b0baa9-4a04-4d18-8a43-5576dd20f0f6.png)
 
 
 <a name="sp1.2"></a>
@@ -74,7 +75,7 @@ Gli attori sono: Utente, Docente, Segreteria
 
 <a name="sp2.1"></a>
 
-### 2.1
+### 2.1.1 - User Studente
 
 Caso d’uso			Visualizza Lista Corsi Iscritto
 
@@ -104,7 +105,7 @@ Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.2"></a>
 
-### 2.2
+### 2.1.2
 
 Caso d’uso			Visualizza Lista Corsi Superati
 
@@ -140,7 +141,7 @@ Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.3"></a>
 
-### 2.3
+### 2.1.3
 
 Caso d’uso			Visualizza Lista dei Corsi accessibili
 
@@ -182,7 +183,7 @@ Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.4"></a>
 
-### 2.4
+### 2.2.4 User Docente
 
 Caso d’uso			Visualizza lista corsi in cui insegna
 
@@ -218,7 +219,7 @@ Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.5"></a>
 
-### 2.5
+### 2.2.5
 
 Caso d’uso			Indire un esame per corso in cui insegna
 
@@ -260,7 +261,7 @@ Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.6"></a>
 
-### 2.6
+### 2.2.6
 
 Caso d’uso			Registrare un voto
 
@@ -310,7 +311,7 @@ Post condizioni			Sistema mostra schermata con lista
 
 <a name="sp2.7"></a>
 
-### 2.7
+### 2.2.7
 
 Caso d’uso			Visualizza lista iscritti ad un esame
 
@@ -350,7 +351,7 @@ Post condizioni			SW mostra schermata con lista
 
 <a name="sp2.8"></a>
 
-### 2.8
+### 2.3.8 User Segreteria
 
 
 Caso d’uso: aggiungere nuovo corso
@@ -384,7 +385,7 @@ Post condizioni:
 
 <a name="sp2.9"></a>
 
-### 2.9
+### 2.3.9
 
 
 
@@ -425,7 +426,7 @@ Post condizioni: tutti gli studenti del corso di studio aggiunto ora potranno ac
 
 <a name="sp2.10"></a>
 
-### 2.10
+### 2.3.10
 
 
 Caso d’uso: elimina corso
@@ -457,7 +458,7 @@ Post condizioni: se il corso è in corso allora tenere una coda con i corsi atti
 
 <a name="sp2.11"></a>
 
-### 2.11
+### 2.3.11
 
 Caso d’uso: aggiungere studente
 
@@ -485,15 +486,15 @@ Post condizioni: lo studente può accedere ai corsi e agli esami
 
 <a name="sp2.12"></a>
 
-### 2.12
+### 2.3.12
 
 <a name="sp2.13"></a>
 
-### 2.13
+### 2.3.13
 
 <a name="sp2.14"></a>
 
-### 2.14
+### 2.3.14
 
 <a name="sp2.15"></a>
 
@@ -501,11 +502,11 @@ Post condizioni: lo studente può accedere ai corsi e agli esami
 
 <a name="sp2.16"></a>
 
-### 2.16
+### 2.3.16
 
 <a name="sp2.17"></a>
 
-### 2.17
+### 2.3.17
 Caso d’uso: visualizzazione segnalazioni
 
 Tipo: secondario
